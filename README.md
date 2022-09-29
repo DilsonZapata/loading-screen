@@ -10,7 +10,7 @@ Example:
     public void loginIntervencion(String user, String pass) {
 
         //An instance of the wait class is implemented and the process to be run is placed inside.
-        wait result = new LoadingScreen() {
+        LoadingScreen result = new LoadingScreen() {
             @Override
             public boolean doSomeThing() {
             
